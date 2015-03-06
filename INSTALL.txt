@@ -1,0 +1,14 @@
+==============================
+SpecINFO Blue Theme
+Install Instructions
+==============================
+
+1. Install theme using Module Loader
+2. Set SpecINFO Blue Theme in user's settings: Log in and click on logged user name at the top,
+    next edit the user's profile and set the appropriate theme.
+    Alternatively you can set SpecINFO Blue Theme as default using Admin->Themes settings.
+3. Comment out the line:
+
+    if(SugarThemeRegistry::current()->name == 'Classic')
+
+    in include/MVC/View/SugarView.php
